@@ -1,2 +1,2 @@
-# pomeroybank.github.io
-pomeroy bank website
+# billmore international
+BI website with job postings, etc.
