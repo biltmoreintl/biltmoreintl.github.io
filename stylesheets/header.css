@@ -15,6 +15,10 @@
 	border-radius: 50%;
 }
 
+.entry-title a:hover{
+	color: #585;
+}
+
 /* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
