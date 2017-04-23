@@ -1,0 +1,27 @@
+.entry-content h2 {
+	text-align: center; 
+	text-decoration: underline; 
+	margin: 5px;
+}
+
+.entry-content p {
+	font-size: 1.5em;
+}
+
+.entry-content img: {
+	margin: 10px;
+}
+
+.welcome-message h1 {
+	text-align: center; 
+	font-weight: bold;
+	font-size: 4em;
+	color: #632;
+}
+
+.welcome-message p {
+	text-align: center; 
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #333;
+}
