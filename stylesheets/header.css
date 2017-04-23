@@ -2,6 +2,44 @@
 	background-image: url(../img/cover.jpg);
 }
 
+ /* Style all font awesome icons */
+.fa {
+    width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+	margin: 10px;
+    text-align: center;
+	vertical-align: text-bottom;
+	color: white;
+    text-decoration: none;
+	border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+    background: #0077b5;
+    color: white;
+}
+
+/* Github */
+.fa-github {
+    background: #555555;
+    color: white;
+}
+
 body.custom-background {
 	background-color: #ddd3d3;
 }
@@ -10,39 +48,18 @@ body.custom-background {
 	position: relative;
 }
 
-.social-links ul a:before, .social-links ul a:hover:before {
-	background-color: transparent;
-	background: -webkit-linear-gradient(transparent, transparent),
-		url(../img/header_lg.jpg) no-repeat;
-	background: -o-linear-gradient(transparent, transparent);
-	background-position: left center;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	z-index: 1;
-}
-
-.social-links ul a:after {
-	background-color: rgba(255, 255, 255, 0.75);
-	border-radius: 50%;
-	content: "";
-	display: block;
-	position: absolute;
-	left: 0;
-	top: 0;
-	padding: 9px;
-	width: 34px;
-	height: 34px;
-	margin: 3px 7px;
-	-webkit-transition: 0.3s background-color;
-	-moz-transition: 0.3s background-color;
-	transition: 0.3s background-color;
+.social-links ul a:before {
+	color: white;
+	-webkit-transition: 0.1s background-color;
+	-moz-transition: 0.1s background-color;
+	transition: 0.1s background-color;
 }
 
 .social-links ul a:hover:after {
 	background-color: white;
-	-webkit-transition: 0.3s background-color;
-	-moz-transition: 0.3s background-color;
-	transition: 0.3s background-color;
+	-webkit-transition: 0.1s background-color;
+	-moz-transition: 0.1s background-color;
+	transition: 0.1s background-color;
 }
 
 .site-title a, .site-description, .site-title a:hover {
